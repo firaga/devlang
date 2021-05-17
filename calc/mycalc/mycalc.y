@@ -1,4 +1,9 @@
 %{
+/** 注释 */
+int yylex();
+int yyerror(const char *s);
+%}
+%{
 #include <stdio.h>
 #include <stdlib.h>
 #define YYDEBUG 1
